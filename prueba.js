@@ -23,6 +23,7 @@ function getExtension (route) {
 }
 
 function getLinks (data) {
+    console.log(data, 'dataaaaaaaaaaaaaaa');
     // let regExp = /https?:\/\/[a-zA-Z\.\/-]+/gm
     let regExp = /\(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,}\gi/gm;
     // let regExp = /\bhttps+:\/\/\S+/gi;
